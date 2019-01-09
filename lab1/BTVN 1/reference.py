@@ -14,4 +14,11 @@ print("Ads:", ads)
 wom = db.customers.count_documents(({"ref": "wom"}))
 print("WOM:", wom)
 
-client.close()
+
+from matplotlib import pyplot
+ref_count =[events, ads, wom]
+ref_name =["Events", "Ads", "Wom"]
+
+pyplot.pie(ref_count, labels=ref_name, autopct="%.1f%%", shadow=True)
+pyplot.axis("equal")
+pyplot.show()
