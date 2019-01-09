@@ -5,7 +5,7 @@ client = MongoClient(uri)
 
 db = client.get_database()
 
-post_collection = db["Hieu"]
+post_collection = db["posts"]
 
 new_post = {
     "title": "C4E25",
