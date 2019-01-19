@@ -1,0 +1,12 @@
+_ We use function to reuse the code
+_ To define a function we use: def
+   ex: def <function_name> (function_parameter):
+_ To call a function: function_name(parameter)
+_ The return statement causes your function to exit and hand back a value to its caller
+_ Yes. We have to use return in every function
+_Python allows functions to be called using keyword arguments
+When we call functions in this way, the order (position) of the arguments can be changed.
+Following calls to the above function are all valid and produce the same result 
+_ We have 2 ways to use a function from a different file:
+1. use: imoprt <file_name>
+2. use: from <file_name> import <function_name>
